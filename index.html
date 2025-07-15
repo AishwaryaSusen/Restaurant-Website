@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Italian Bisto</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="overlay">
+      <h1>ITALIAN BISTRO</h1>
+      <p>Your Flavor Destination</p>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#reservation">Reservations</a></li>
+      <li><a href="#events">Events</a></li>
+    </ul>
+  </nav>
+
+  <section id="menu" class="section">
+    <h2>Our Menu🍝</h2>
+    <div class="menu-grid">
+      <div class="menu-item">
+        <img src="pizza.jpeg" alt="Pizza" />
+        <h3>Margherita Pizza</h3>
+        <p>Classic delight with mozzarella & basil. <span class="price">Rs.300</span>/-</p>
+      </div>
+      <div class="menu-item">
+        <img src="pasta.jpeg" alt="Pasta" />
+        <h3>Pasta Alfredo</h3>
+        <p>Creamy white sauce with mushrooms. <span class="price">Rs.289/-</span></p>
+      </div>
+      <div class="menu-item">
+        <img src="burger.jpeg" alt="Burger" />
+        <h3>Classic Cheeseburger</h3>
+        <p>Juicy beef patty with cheddar & lettuce. <span class="price">Rs.299/-</span></p>
+      </div>
+      <div class="menu-item">
+        <img src="spaghetti.jpeg" alt="Spaghetti"  />
+        <h3>Spaghetti</h3>
+        <p> A deliciously twirled nest of golden pasta. <span class="price">Rs.349/-</span></p>
+      </div>
+      <div class="menu-item">
+        <img src="lasagna.jpeg" alt="lasagna"  />
+        <h3>Lasagna</h3>
+        <p>Layers of tender pasta sheets, rich meat or veggies.<span class="price">Rs.429/-</span></p>
+       </div>
+       <div class="menu-item">
+        <img src="tortillas.jpeg" alt="Tortillas"  />
+        <h3>Tortillas</h3>
+        <p>Soft tortillas stuffed with bold, fresh flavors.<span class="price">Rs.399/-</span></p>
+       </div>
+       <div class="menu-item">
+        <img src="Cast Iron Pizza.jpeg" alt="Cast iron pizza" />
+        <h3>Cast Iron Pizza</h3>
+        <p>Hot,cheesy and loaded with your favourite toppings.<span class="price">Rs.399/-</span></p>
+       </div> 
+       <div class="menu-item">
+        <img src="Crispy Cheese Balls.jpeg" alt="Cheese balls" />
+        <h3>Crispy Cheese Balls</h3>
+        <p>Crispy outside, cheesy and gooey inside.<span class="price">Rs.249/-</span></p>
+       </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="reservation" class="section">
+    <h2>Book a Table</h2>
+    <form id="reservation-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Email" required />
+      <input type="date" required />
+      <input type="time" required />
+      <input type="number" placeholder="Guests" min="1" required />
+      <button type="submit">Reserve</button>
+    </form>
+    <p id="confirmation"></p>
+  </section>
+
+  <section id="events" class="section">
+    <h2>Upcoming Events</h2>
+    <div class="event">
+      <h3>Live Music Night</h3>
+      <p>Friday, July 20 – 7 PM onwards</p>
+    </div>
+    <div class="event">
+      <h3>Chef's Special Evening</h3>
+      <p>Saturday, July 27 – 6 PM</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Italian Bistro. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
